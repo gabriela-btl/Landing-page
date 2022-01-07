@@ -169,6 +169,7 @@ a {
 footer {
     background-color: #30362a;
     color: white;
+    text-align: center;
 
     display: flex;
     justify-content: center;
