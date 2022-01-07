@@ -132,7 +132,7 @@ a {
 
 .citation {
     color: white;
-    font-size: 32px;
+    font-size: 64px;
     font-style: italic;
 
     display: flex;
@@ -145,10 +145,32 @@ a {
     box-shadow: 20px 20px #ffffff;;
 }
 
-.CTA {
+.bottom-content {
     background-color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    padding: 64px;
+
+}
+
+.CTA {
+    background-color: rgb(231, 185, 57);
+    color: white;
+    font-size: 24px;
+    border-radius: 12px;
+    padding: 64px 128px;
+    margin:48px;
+
+    display: flex;
+    column-gap: 48px;
 }
 
 footer {
     background-color: #30362a;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    padding: 48px;
 }
